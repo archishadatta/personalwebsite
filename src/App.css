@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela:wght@400&display=swap');
+
+.frame {
+  /* min-height: 100vh; */
+  padding: 7vw 7vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.heading {
+  font-family: 'Poppins', sans-serif;
+  font-style:normal;
+  font-weight: 500;
+  font-size: calc(35px + 2vw);
+  line-height: 100%;
+  margin-bottom: 1.5vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.text {
+  font-family: 'Varela', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(8px + .75vw);
+  line-height: 145.7%;
+  margin-top: 0.5vw;
+}
+
+/* Menu */
+.menu {
+  position: absolute;
+  top: 1.5vw;
+  right: 0;
+}
+
+.menuItem {
+  font-family: 'Poppins', sans-serif;
+  font-style:normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+  line-height: 100%;
+
+  color: black;
+  text-decoration: none;
+  margin-right: 5vw;
+
+}
+
+/* .menuItem:hover {
+  text-shadow: 1px 1px 6px rgba(76, 13, 105, 0.2);
+  mix-blend-mode: multiply;
+} */
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    display: none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* footer */
+.footer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-flow: row wrap;
+  padding: 4vw;
+  justify-content: space-around;
+  row-gap: 20px;
+}
+.footer-text {
+  font-family: 'Poppins', sans-serif;
+    font-style:normal;
+    font-weight: 500;
+    font-size: calc(14px + 0.8vw);
 }
 
-.App-link {
-  color: #61dafb;
+/* SCROLLBAR*/
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
 }
+
+::-webkit-scrollbar-thumb {
+  background: #FF88B2; 
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E780AF; 
+} 

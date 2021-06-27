@@ -1,0 +1,29 @@
+.contact {
+    display: inline-flex;
+    flex-flow: row wrap;
+    column-gap: 60px;
+    row-gap: 10px;
+}
+
+.contact-button {
+    text-decoration: none;
+    color: black;
+    border-radius: 2vw;
+    cursor: pointer;
+    padding: 1vw;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.bevel:hover {
+    box-shadow:  3px 3px 60px rgba(76, 13, 105, 0.3), -3px -3px 60px rgba(255,255,255, 0.3);
+}
+
+.contact-button-label {
+  font-family: 'Poppins', sans-serif;
+  font-style:normal;
+  font-weight: 500;
+  font-size: 14px;
+}

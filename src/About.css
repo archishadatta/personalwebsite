@@ -1,0 +1,32 @@
+/* .about-heading {
+    margin-bottom: 50px;
+} */
+
+.about-image {
+    width: calc(30px + 25vw);
+    min-width: 200px;
+}
+
+.about-container {
+    display: grid;
+    gap: 9vw;
+    grid-template-columns: 58% auto;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-container {
+        display: initial;
+    }
+    .about-image {
+        margin-top: 10vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }

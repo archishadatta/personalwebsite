@@ -1,0 +1,40 @@
+.landing {
+    /* background-image: url("background_1.png"); */
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 65% auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.landing-subtitle {
+    font-family: 'Varela', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(12px + .75vw);
+    line-height: 145.7%;
+}
+
+.landing-text {
+    /* margin-top: 1.2vw; */
+    margin-bottom: 3vw;
+}
+
+.landing-image {
+    width: calc(30px + 25vw);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .landing {
+        display: block;
+        height: fit-content;
+        padding: 10vw 10vw;
+    }
+    .landing-image {
+        margin-top: 10vw;
+        min-width: 200px;
+    }
+  }

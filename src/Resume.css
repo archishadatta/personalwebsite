@@ -1,0 +1,58 @@
+.resume-heading {
+    font-family: 'Poppins', sans-serif;
+    font-style:normal;
+    font-weight: 500;
+    font-size: calc(15px + 1vw);
+    margin: 3vw 0;
+  /* line-height: 100%;
+  margin-bottom: 1.5vw; */
+}
+
+.resume-title {
+    font-family: 'Poppins', sans-serif;
+    font-style:normal;
+    font-weight: 500;
+    font-size: calc(14px + 0.5vw);
+}
+
+.resume-item-time {
+    font-family: 'Poppins', sans-serif;
+    font-style:normal;
+    font-weight: 500;
+    font-size: calc(10px + 0.5vw);
+    color: #B4B4B4;
+}
+
+.resume-item-border {
+    height: 150px;
+}
+
+.resume-item {
+    display: grid;
+    grid-template-columns: 35px auto;
+    margin-bottom: 5vw;
+}
+
+/* Skill Item */
+.skill-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .skill-content {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 3vw;
+    }
+  }
+
+.skill-item-icon {
+    height: 7vw;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 3vw auto;
+}
