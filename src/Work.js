@@ -1,57 +1,99 @@
 import React from 'react';
 import './Work.css';
 
-import img1 from './bufferbuffet.png'
+import one from './bufferbuffet.png'
+import two from './Sneakerhead.png'
+import three from './BoolBots.png'
+import four from './Color Lab.png'
+import five from './Giving Tree.png'
+import six from './Patent Sketch.png'
+import seven from './personal website.png'
+import eight from './no filter.png'
+import nine from './tiktok.png'
+import ten from './year in review.png'
 
 const portfolio = [
   {
-    img: img1,
-    title: "title 1",
+    img: one,
+    title: "Buffer Buffet",
     tags: ["tag 1", "tag 2"],
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
     me: "User Interface, Design & Prototype",
     link: "https://www.google.com/"
   },
   {
-    img: img1,
-    title: "title 1",
+    img: two,
+    title: "Sneaker Culture",
     tags: ["tag 1", "tag 2"],
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
     me: "User Interface, Design & Prototype",
     link: "https://www.google.com/"
   },
   {
-    img: img1,
-    title: "title 1",
+    img: three,
+    title: "BoolBots",
     tags: ["tag 1", "tag 2"],
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
     me: "User Interface, Design & Prototype",
     link: "https://www.google.com/"
   },
   {
-    img: img1,
-    title: "title 1",
+    img: four,
+    title: "Color Lab",
     tags: ["tag 1", "tag 2"],
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
     me: "User Interface, Design & Prototype",
     link: "https://www.google.com/"
   },
   {
-    img: img1,
-    title: "title 1",
+    img: five,
+    title: "The Giving Tree",
     tags: ["tag 1", "tag 2"],
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
     me: "User Interface, Design & Prototype",
     link: "https://www.google.com/"
   },
   {
-    img: img1,
-    title: "title 1",
+    img: six,
+    title: "Patent Sketch",
     tags: ["tag 1", "tag 2"],
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
     me: "User Interface, Design & Prototype",
     link: "https://www.google.com/"
-  }
+  },
+  {
+    img: seven,
+    title: "This Website",
+    tags: ["tag 1", "tag 2"],
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
+    me: "User Interface, Design & Prototype",
+    link: "https://www.google.com/"
+  },
+  {
+    img: eight,
+    title: "No Filter",
+    tags: ["tag 1", "tag 2"],
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
+    me: "User Interface, Design & Prototype",
+    link: "https://www.google.com/"
+  },
+  {
+    img: nine,
+    title: "Tiktok Famous",
+    tags: ["tag 1", "tag 2"],
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
+    me: "User Interface, Design & Prototype",
+    link: "https://www.google.com/"
+  },
+  {
+    img: ten,
+    title: "Year in Review",
+    tags: ["tag 1", "tag 2"],
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
+    me: "User Interface, Design & Prototype",
+    link: "https://www.google.com/"
+  },
+  
 ]
 
 const PortfolioItem = (props) => {
