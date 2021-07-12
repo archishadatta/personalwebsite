@@ -1,5 +1,4 @@
 .end {
-    /* background-image: url("background_2.png"); */
     background-size: cover;
 }
 
@@ -11,15 +10,29 @@
 }
 
 .end-item {
-    border-radius: 4vw;
-    /* padding: 1.5vw 3vw; */
-    padding-right: 3vw;
-    padding-left: 3vw;
-    padding-top: 1.5vw;
-    padding-bottom: 1vw;
+    border-radius: 6px;
+    padding: 15px 20px;
     background-color: white;
-    margin: 1.5vw 0;
+    margin: 20px 0;
 }
  .end-item-container {
      margin-top: 2.7vw;
  }
+
+ .surprise-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    border-radius: 2vw;
+    cursor: pointer;
+    padding: 1vw 3vw;
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: solid 1.5px black;
+ }
+
+ .surprise-button:hover {
+    box-shadow:  3px 3px 60px rgba(76, 13, 105, 0.3), -3px -3px 60px rgba(255,255,255, 0.3);
+}

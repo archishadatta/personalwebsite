@@ -4,7 +4,7 @@
 
 .frame {
   /* min-height: 100vh; */
-  padding: 7vw 7vw;
+  padding: 7vw;
 }
 
 
@@ -14,7 +14,7 @@
   font-weight: 500;
   font-size: calc(35px + 2vw);
   line-height: 100%;
-  margin-bottom: 1.5vw;
+  margin-bottom: 30px;
 }
 
 .text {
@@ -51,7 +51,7 @@
   mix-blend-mode: multiply;
 } */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .menu {
     display: none;
   }
@@ -72,7 +72,7 @@
     font-size: calc(14px + 0.8vw);
 }
 
-/* SCROLLBAR*/
+/* SCROLLBAR
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -88,4 +88,4 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #E780AF; 
-} 
+}  */

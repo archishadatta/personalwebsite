@@ -19,14 +19,14 @@
         grid-template-columns: auto;
         justify-content: space-between;
         margin-top: 5vw;
-        gap: 3vw;
+        gap: 20px;
     }
   }
 
 .portfolioItem {
     background-color: white;
     border-radius: 6px;
-    padding: 1.5vw;
+    padding: 20px;
     color: black;
     text-decoration: none;
 }
@@ -53,15 +53,6 @@
     font-style:normal;
     font-weight: 500;
     font-size: calc(6px + 0.5vw);
-
-    
-    /* background-blend-mode: screen;
-    background-color: black;
-    background-image: url("background_1.png");
-    /* background-origin: blur(8px); 
-    background-size: cover;
-    background-position:center; */
-
     border: solid #B4B4B4 1px;
     color: #B4B4B4;
     border-radius: 25px;
@@ -73,12 +64,8 @@
 }
 
 .portfolio-tag-section {
-    margin-bottom: 1.3vw;
-    margin-top: 0.7vw;
-}
-
-.portfolio-description {
-  margin-top: 0.5vw;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 .portfolio-text {

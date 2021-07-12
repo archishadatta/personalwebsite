@@ -10,9 +10,9 @@ const ResumeItem = (props) => {
     console.log(props.text);
     let text = props.text;
     return (
-      <div className="resume-item">
-          <img className="resume-item-border" src={border} alt=""></img>
-          <div className="resume-item-content">
+      <div className="resume-item table-container">
+          <img className="resume-item-border table-tile" src={border} alt=""></img>
+          <div className="resume-item-content table-tile">
             <div className="resume-title">{props.title}</div>
             <div className="resume-item-time">{props.time}</div>
             <ul className="text">
@@ -43,19 +43,33 @@ const SkillItem = (props) => {
 
 const resume = [
   {
-    title: "title 1",
-    time: "time 1",
-    text: ["hello", "my", "name"]
+    title: "Web Development and Marketing Intern at Patent Sketch LLC",
+    time: "Summer 2021",
+    text: ["Brand redesign: designed and developed new website, created corresponding marketing assets",
+          "Social media: analyzed web traffic patterns, compiled content ideas, researched and utilzed relevant keywords",
+          "Sales outreach: compiled list of 200+ potential clients and marketed product to them"]
   },
   {
-    title: "title 2",
-    time: "time 2",
-    text: ["look", "an", "airplane", "woah"]
+    title: "Computer Science Instructor at Juni Learning",
+    time: "2020 - Present",
+    text: ["Teach Scratch, Python, JavaScript, HTML/CSS, and Java in 1-on-1 computer science sessions with students age 7-16"]
   },
   {
-    title: "title 3",
-    time: "time 3",
-    text: ["im", "making", "a", "website!!"]
+    title: "Design Director and Web Developer at ACM TeachLA",
+    time: "2020 - Present",
+    text: ["Design: lead designer for all projects, provide design critiques and training sessions for 50+ person team", 
+            "Development: contribute to front-end development of interactive learning modules using React library, focus on user interface"]
+  },
+  {
+    title: "Design Contributor at Daily Bruin",
+    time: "2020 - Present",
+    text: ["Design web mockups, magazine spreads, and social media posts for the top daily newspaper at a four-year college"]
+  },
+  {
+    title: "Biochemical Research Intern at San Jose State University",
+    time: "Summer 2019",
+    text: ["Used skills in graphics programs to develop method of quantifying waviness of layers in cell images through automated image analysis", 
+            "Co-author on Stanford-based research paper"]
   }
 ]
 
@@ -63,20 +77,20 @@ const skills = [
   {
     title: "languages",
     icon: langicon,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
-    list: ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"]
+    text: "These are the languages I can code in.",
+    list: ["Python", "C++", "Java", "JavaScript", "HTML/CSS"]
   },
   {
     title: "programs",
     icon: progicon,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
-    list: ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"]
+    text: "I know my way around these programs.",
+    list: ["Adobe Suite (Photoshop, Illustrator, Animate, After Effects, InDesign)", "Figma", "Blender", "AutoCAD"]
   },
   {
     title: "miscellaneous",
     icon: miscicon,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia lectus eget finibus imperdiet.",
-    list: ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"]
+    text: "Here are just some extra things I know how to do!",
+    list: ["Web Design and Development", "2D Animation/3D Modelling", "Photo Manipulation", "Vector Illustration"]
   }
 ]
 
@@ -93,9 +107,6 @@ const Resume = () => {
         </div>
         <div className="resume-heading">what i'm good at</div>
         <div className="skill-content">
-            {/* <SkillItem title="languages" image={langicon}></SkillItem>
-            <SkillItem title="programs" image={progicon}></SkillItem>
-            <SkillItem title="miscellaneous" image={miscicon}></SkillItem> */}
             {skills.map((item) => {
               return <SkillItem key={item.title} title={item.title} icon={item.icon} text={item.text} list={item.list}></SkillItem>
             })}

@@ -1,6 +1,6 @@
 import './App.css';
 import Scrollspy from 'react-scrollspy'
-import {Parallax, Background} from "react-parallax"
+import {Parallax} from "react-parallax"
 
 import Landing from "./Landing"
 import About from "./About"

@@ -24,15 +24,23 @@
 }
 
 .resume-item-border {
-    height: 150px;
+    /* width: 3px;
+    height: inherit; */
+    align-self: stretch;
+    width: 7px;
 }
 
 .resume-item {
-    display: grid;
-    grid-template-columns: 35px auto;
-    margin-bottom: 5vw;
+    /* display: grid;
+    grid-template-columns: 35px auto; */
+    display: flex;
+    gap: 2vw;
+    margin-bottom: 2vw;
 }
 
+.resume-item-content {
+    height: fit-content;
+}
 /* Skill Item */
 .skill-content {
     display: grid;
