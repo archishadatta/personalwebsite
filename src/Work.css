@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
-    margin-top: 5vw;
+    margin-top: 3vw;
     gap: 3vw;
 }
 
@@ -18,7 +18,7 @@
         display: grid;
         grid-template-columns: auto;
         justify-content: space-between;
-        margin-top: 5vw;
+        margin-top: 3vw;
         gap: 20px;
     }
   }
@@ -60,12 +60,20 @@
     padding: 0.3vw 1.2vw;
 
     display: inline;
-    margin-right: 1vw;
+    margin-inline-end: 7px;
+    /* margin-bottom: 1vw; */
+    /* white-space: pre-wrap; */
+    /* box-sizing: border-box; */
 }
 
 .portfolio-tag-section {
-    margin-bottom: 15px;
-    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-top: 3px;
+    line-height: 200%;
+    
+    /* overflow-x: scroll; */
+    /* text-overflow: ellipsis; */
+    /* white-space: nowrap; */
 }
 
 .portfolio-text {
