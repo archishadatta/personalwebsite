@@ -1,4 +1,5 @@
 import './App.css';
+
 import Scrollspy from 'react-scrollspy'
 import {Parallax} from "react-parallax"
 
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <div className="App">
+
       <Parallax blur={0} bgImage={bg1} bgImageAlt="" strength={200}>
           <Landing></Landing>   
       </Parallax>

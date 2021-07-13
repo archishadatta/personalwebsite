@@ -55,25 +55,18 @@
     font-size: calc(6px + 0.5vw);
     border: solid #B4B4B4 1px;
     color: #B4B4B4;
+    background-color: transparent;
     border-radius: 25px;
     width: fit-content;
     padding: 0.3vw 1.2vw;
-
     display: inline;
     margin-inline-end: 7px;
-    /* margin-bottom: 1vw; */
-    /* white-space: pre-wrap; */
-    /* box-sizing: border-box; */
 }
 
 .portfolio-tag-section {
     margin-bottom: 12px;
     margin-top: 3px;
     line-height: 200%;
-    
-    /* overflow-x: scroll; */
-    /* text-overflow: ellipsis; */
-    /* white-space: nowrap; */
 }
 
 .portfolio-text {

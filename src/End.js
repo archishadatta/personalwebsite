@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { Component }  from 'react';
+import Reward from 'react-rewards';
+
 import './End.css';
 
 const EndItem = (props) => {
@@ -42,14 +44,72 @@ const endList = [
     }
     
   ]
+
+  const emojiPool = 
+    ["✌️","🥰","❤️","😍","😃","🤠","🥺","🤩","🎉","🌶️","✨","👍","👋","🤣","🙂","😘",
+    "😝","🥳","😜","😝","🤗","🤩","💌","😻","👻","👽","🤘","🤙","💄","💃🏽","🧶","🧵","👗","👠","👒","👑","🕶️",
+    "😎","🐶","🦊","🐸","🐒","🐣","🐝","🐞","🐱","🐻","🦁","🐥","🐭","🐼","🐧","🦆","🐛","🦋","🐴",
+    "🐦","🙉","🐷","🐻‍","❄️","🐹","🐰","🐨","🙊","🐤","🦉","🦄","🐌","🐢","🦕","🐳","🦩","🌵","🌳","🌲",
+    "🌿","🌱","🍀","🍁","🍄","🐚","🌹","💐","🌷","🌺","🌸","🌼","🌻","🌞","🌝","🌛","🌜","🌚","🌙","💫",
+    "⭐️","🌎","🪐","🌟","⚡️","💥","☄️","🔥","🌈","☀️","🌤️","🌧️","☃️","☂️","🌊","🍏","🍎","🍐","🍊","🍋",
+    "🍌","🍉","🍇","🍓","🍈","🍒","🍑","🥭","🍍","🥥","🥝","🍅","🥑","🧀","🍔","🍟","🍕","🌮","🍦","🎂",
+    "🍰","🍫","🍭","🍡","🧁","🍪","🍩","🍿","🍯","🥡","⚽️","🎾","🏀","🏐","🏈","⚾️","🎱","🪀","⛳️","🏆",
+    "🥇","🎖️","🏵️","🎗️","🎟️","🤹🏽‍♀️","🎪","🩰","🎨","🎬","🎭","🎤","🎼","🎹","🎺","🥁","🎺","🎸","🎻","🎲",
+    "🎯","🧩","🚗","🚕","🚨","🏖️","⛱️","⛺️","🏕️","🏞️","🌅","🌄","🌠","🎇","🎆","🌌","🌉","🌁","☎️",
+    "🎞️","⏰","🧲","🔮","🧸","🎈","🎊","🎀","🎉","📈","📒","📎","📖","📍","✂️","🖍️","💜","💓","🧡","🖤",
+    "💗","💛","🤍","❣️","💖","💚","🤎","💕","💘","💙","💔","💞","💝","💟","🔆","🔴","🟠","🟡","🟢",
+    "🔵","🟣","⚫️","⚪️","🔶","🟦","🟥","🟪","🟧","⬛️","🟨","⬜️","🟩","🟫","♥️","🏳️‍🌈"];
+ 
+  const lifetime=200;
+  const angle=90;
+  const decay=.91;
+  const spread=100;
+  const startVelocity=20;
+  const elementCount=15;
+  const elementSize=20;
+  const zIndex=10;
+  const springAnimation=false;
+  // console.log("making array")
+  let emoji=[
+    emojiPool[Math.floor(Math.random() * emojiPool.length)],
+    emojiPool[Math.floor(Math.random() * emojiPool.length)],
+    emojiPool[Math.floor(Math.random() * emojiPool.length)],
+    emojiPool[Math.floor(Math.random() * emojiPool.length)],
+    emojiPool[Math.floor(Math.random() * emojiPool.length)],
+  ];   
+
+
+  export default class End extends Component {
   
-
-const End = () => {
-
-  function surprise () {
-    console.log("surprise!")
+  constructor(props) {
+    super(props);
+    this.state = {
+      emoji: [
+        emojiPool[Math.floor(Math.random() * emojiPool.length)],
+        emojiPool[Math.floor(Math.random() * emojiPool.length)],
+        emojiPool[Math.floor(Math.random() * emojiPool.length)],
+        emojiPool[Math.floor(Math.random() * emojiPool.length)],
+        emojiPool[Math.floor(Math.random() * emojiPool.length)],
+      ]
+    };
+  }
+  
+  surprise = () => {
+    console.log("surprise!") 
+    this.setState({
+      emoji: [
+        emojiPool[Math.floor(Math.random() * emojiPool.length)],
+        emojiPool[Math.floor(Math.random() * emojiPool.length)],
+        emojiPool[Math.floor(Math.random() * emojiPool.length)],
+        emojiPool[Math.floor(Math.random() * emojiPool.length)],
+        emojiPool[Math.floor(Math.random() * emojiPool.length)],
+      ]
+    });
+    this.reward.rewardMe();
   }
 
+ render(){
+  emoji = this.state.emoji
   return (
     <div className="end frame">  
         <div className="heading">odds &amp; ends</div>
@@ -60,10 +120,29 @@ const End = () => {
             })}
         </div>
         <br></br>
-        <button className="surprise-button" onClick={surprise}>click for a surprise</button>
+        <div className="center">
+          <Reward 
+            ref={(ref) => { this.reward = ref }} 
+            type='emoji'
+            config={{
+              lifetime,
+              angle,
+              decay,
+              spread,
+              startVelocity,
+              elementCount,
+              elementSize,
+              zIndex,
+              springAnimation,
+              emoji,
+            }}
+          >
+              <button className="surprise-button" onClick={this.surprise}>click for a surprise</button>
+          </Reward>
+        </div>
     </div>
-    
   );
+ }
 };
 
-export default End;
+// export default End;

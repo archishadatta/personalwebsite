@@ -28,9 +28,14 @@
     cursor: pointer;
     padding: 1vw 3vw;
     display: block;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     background-color: transparent;
     border: solid 1.5px black;
+ }
+
+ .center {
+     display: flex;
+     justify-content: center;
  }
 
  .surprise-button:hover {

@@ -107,7 +107,7 @@ const PortfolioItem = (props) => {
           
           <div className="portfolio-tag-section">
             {tags.map((item) =>
-                  <span className="portfolio-tag" key={item}>{item}</span>
+                  <button className="portfolio-tag" key={item}>{item}</button>
             )}
           </div>
           <div className="portfolio-description portfolio-text">{props.text}</div>
