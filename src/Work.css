@@ -45,14 +45,14 @@
     font-family: 'Poppins', sans-serif;
     font-style:normal;
     font-weight: 500;
-    font-size: calc(14px + 0.5vw);
+    font-size: calc(18px + .2vw);
 }
 
 .portfolio-tag {
     font-family: 'Poppins', sans-serif;
     font-style:normal;
     font-weight: 500;
-    font-size: calc(6px + 0.5vw);
+    font-size: calc(10px + .2vw);
     border: solid #B4B4B4 1px;
     color: #B4B4B4;
     background-color: transparent;
@@ -64,8 +64,8 @@
 }
 
 .portfolio-tag-section {
-    margin-bottom: 12px;
-    margin-top: 3px;
+    margin-bottom: 1.5vw;
+    margin-top: .5vw;
     line-height: 200%;
 }
 
@@ -73,7 +73,7 @@
   font-family: 'Varela', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: calc(8px + .5vw);
+  font-size: calc(15px + .2vw);
   line-height: 145.7%;
 }
 
@@ -81,5 +81,5 @@
     font-family: 'Poppins', sans-serif;
     font-style:normal;
     font-weight: 600;
-    font-size: calc(8px + 0.5vw);
+    font-size: calc(15px + .2vw);
 }
