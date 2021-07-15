@@ -48,7 +48,7 @@ const portfolio = [
   {
     img: five,
     title: "The Giving Tree",
-    tags: ["Web Design", "Web Development",],
+    tags: ["Web Design", "Web Development", "Work in Progress"],
     text: "The Giving Tree is an interactive retelling of one of my favorite childhood stories. This was a personal project I worked on with a friend.",
     me: "Contributed to design and development",
     link: "https://www.figma.com/proto/BFFZkQPsvWYQ2IXQkckqus/the-giving-tree-bloom?node-id=5%3A4&scaling=scale-down-width&page-id=0%3A1&hide-ui=1"
@@ -56,7 +56,7 @@ const portfolio = [
   {
     img: six,
     title: "Patent Sketch",
-    tags: ["Web Design", "Wordpress"],
+    tags: ["Web Design", "Wordpress", "Work in Progress"],
     text: "This is the website I made as part of a rebranding project for my summer internship at Patent Sketch.",
     me: "Design & Prototype, Development on Wordpress",
     link: "https://www.figma.com/proto/kwNMBfNL9MPqWPOjCJAa3j/Patent-Sketch-Website?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1&hide-ui=1"
