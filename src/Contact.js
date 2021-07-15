@@ -10,8 +10,8 @@ import resumePDF from './resume.pdf'
 
 const ContactButton = (props) => {
     return (
-        <a className={props.bevel == "true" ? "contact-button bevel" : "contact-button"}
-            target="_blank" href={props.link}>
+        <a className={props.bevel === "true" ? "contact-button bevel" : "contact-button"}
+            target="_blank" rel="noreferrer" href={props.link}>
             <img className="contact-button-icon" src= {props.icon} alt=""></img>
             <div className="contact-button-label">{props.label}</div>
         </a>

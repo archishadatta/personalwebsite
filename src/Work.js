@@ -99,7 +99,7 @@ const portfolio = [
 const PortfolioItem = (props) => {
     let tags = props.tags;
     return (
-      <a className="portfolioItem" target="_blank" href={props.link}>
+      <a className="portfolioItem" target="_blank" rel="noreferrer" href={props.link}>
 
           <img className="portfolio-image" src={props.img} alt="first"></img>
 
