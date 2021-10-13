@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Varela:wght@400&display=swap');
 
+body {
+  scroll-behavior: smooth;
+}
+
 .frame {
   /* min-height: 100vh; */
   padding: 7vw;

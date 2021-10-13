@@ -43,6 +43,27 @@ const SkillItem = (props) => {
 
 const resume = [
   {
+    title: "Design Director and Web Developer at ACM TeachLA",
+    time: "2020 - Present",
+    text: ["Design: lead designer for all projects, provide design critiques and training sessions for 50+ person team", 
+            "Development: contribute to front-end development of interactive learning modules using React library, focus on user interface"]
+  },
+  {
+    title: "Design Contributor at Daily Bruin",
+    time: "2020 - Present",
+    text: ["Design web mockups, magazine spreads, and social media posts for the top daily newspaper at a four-year college"]
+  },
+  {
+    title: "Marketing Coordinator at Alumni Scholars Association",
+    time: "2021 - Present",
+    text: []
+  },
+  {
+    title: "Graphic Designer at FAST Magazine",
+    time: "2021 - Present",
+    text: []
+  },
+  {
     title: "Web Development and Marketing Intern at Patent Sketch LLC",
     time: "Summer 2021",
     text: ["Brand redesign: designed and developed new website, created corresponding marketing assets",
@@ -53,17 +74,6 @@ const resume = [
     title: "Computer Science Instructor at Juni Learning",
     time: "2020 - Present",
     text: ["Teach Scratch, Python, JavaScript, HTML/CSS, and Java in 1-on-1 computer science sessions with students age 7-16"]
-  },
-  {
-    title: "Design Director and Web Developer at ACM TeachLA",
-    time: "2020 - Present",
-    text: ["Design: lead designer for all projects, provide design critiques and training sessions for 50+ person team", 
-            "Development: contribute to front-end development of interactive learning modules using React library, focus on user interface"]
-  },
-  {
-    title: "Design Contributor at Daily Bruin",
-    time: "2020 - Present",
-    text: ["Design web mockups, magazine spreads, and social media posts for the top daily newspaper at a four-year college"]
   },
   {
     title: "Biochemical Research Intern at San Jose State University",
@@ -78,7 +88,7 @@ const skills = [
     title: "languages",
     icon: langicon,
     text: "These are the languages I can code in.",
-    list: ["Python", "C++", "Java", "JavaScript", "HTML/CSS"]
+    list: ["Python (Webscraping/webcrawling)", "C++", "Java", "JavaScript (React/React Native)", "HTML/CSS"]
   },
   {
     title: "programs",

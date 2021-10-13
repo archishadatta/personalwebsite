@@ -11,6 +11,8 @@ import seven from './personal website.png'
 import eight from './no filter.png'
 import nine from './tiktok.png'
 import ten from './year in review.png'
+import beheard from './be heard.png'
+import hackfam from './hack fam.png'
 
 const portfolio = [
   {
@@ -20,6 +22,14 @@ const portfolio = [
     text: "Buffer Buffet is an interactive assembly code simulator that allows the user to step through different segments of assembly code and watch how the different registers change.",
     me: "User Interface, Design & Prototype",
     link: "https://bufferbuffet-simulator.uclaacm.com/"
+  },
+  {
+    img: beheard,
+    title: "Be Heard",
+    tags: ["Mobile Design", "Mobile Development", "Work in Progress"],
+    text: "The Be Heard app is an all-in-one platform for activism. On the Educate side, the user finds a news feed curated to their interests, a reading schedule, and current events. The Enact tab has in-app tools to email representatives, sign petitions, generate Linktrees, and generate infographics.",
+    me: "User Interface, Design & Prototype",
+    link: "https://github.com/be-heard-xhacks/be-heard-frontend"
   },
   {
     img: two,
@@ -32,10 +42,10 @@ const portfolio = [
   {
     img: three,
     title: "BoolBots",
-    tags: ["Web Design", "Web Development", "Learning Lab", "Work in Progress"],
+    tags: ["Web Design", "Web Development", "Learning Lab"],
     text: "BoolBots is a game designed to teach students the basics of booleans in Python. They encounter many different boolean bots as they move through the levels.",
     me: "User Interface, Design & Prototype",
-    link: "https://github.com/uclaacm/boolbots"
+    link: "https://boolbots.uclaacm.com/"
   },
   {
     img: four,
@@ -56,15 +66,15 @@ const portfolio = [
   {
     img: six,
     title: "Patent Sketch",
-    tags: ["Web Design", "Wordpress", "Work in Progress"],
-    text: "This is the website I made as part of a rebranding project for my summer internship at Patent Sketch.",
+    tags: ["Web Design", "Wordpress"],
+    text: "This is the website I designed as part of a rebranding project for my summer internship at Patent Sketch.",
     me: "Design & Prototype, Development on Wordpress",
     link: "https://www.figma.com/proto/kwNMBfNL9MPqWPOjCJAa3j/Patent-Sketch-Website?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1&hide-ui=1"
   },
   {
     img: eight,
     title: "No Filter",
-    tags: ["Web Design", "Learning Lab", "Work in Progress"],
+    tags: ["Web Design", "Learning Lab"],
     text: "No Filter is an interactive exploration of convolutional neural networks designed for students in high school and college.",
     me: "Design & Prototype, Minor Styling",
     link: "https://nofilter.uclaacm.com/"
@@ -92,6 +102,14 @@ const portfolio = [
     text: "This is a series of Instagram stories highlighting top stories published by the Daily Bruin in 2020. The design is inspired by Spotify Wrapped.",
     me: "Everything!",
     link: "https://www.figma.com/proto/Mn5Mr8a9VlkK1pHIE7Oxg9/yearinreview?node-id=3%3A137&scaling=scale-down&page-id=0%3A1&hide-ui=1"
+  },
+  {
+    img: hackfam,
+    title: "Hack Fam",
+    tags: ["Graphic Design", "Social Media"],
+    text: "Social media assets for Hack Fam: an ACM event that places students into \"families\" for a quarter to make new friends and good memories!",
+    me: "Everything!",
+    link: "https://www.figma.com/file/M4BZDDAQuKkSuNJ9ybdYF2/Hack-Fam-2021?node-id=7%3A2"
   },
   
 ]
