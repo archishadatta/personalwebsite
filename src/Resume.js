@@ -54,14 +54,9 @@ const resume = [
     text: ["Design web mockups, magazine spreads, and social media posts for the top daily newspaper at a four-year college"]
   },
   {
-    title: "Marketing Coordinator at Alumni Scholars Association",
-    time: "2021 - Present",
-    text: []
-  },
-  {
-    title: "Graphic Designer at FAST Magazine",
-    time: "2021 - Present",
-    text: []
+    title: "Frontend Data Visualization Intern at Thermo Fisher Scientific",
+    time: "Summer 2022",
+    text: ["Conduct design reviews on financial dashboards", "Design and develop internal tools for revenue forecasting"]
   },
   {
     title: "Web Development and Marketing Intern at Patent Sketch LLC",

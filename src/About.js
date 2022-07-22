@@ -12,7 +12,9 @@ const About = () => {
               <div className="heading about-heading">about me</div>
               <div className="text"> Hey there, I’m Archie! I’m a student at UCLA currently learning about mathematics and computer science. I’m especially interested in the intersection of math, computers, and art. Basically, I love to make things: websites, animations, clothes, and really anything you can think of! </div>
               <br></br>
-              <div className="text"> At school, I’m involved in ACM, the largest computer science student organization on campus and Daily Bruin, our school newspaper. I do design and web development for projects ranging from interactive learning modules to feature stories. I also work as a Computer Science instructor and a web developer for a local small business. In other words, I spend a lot of time on Figma and Github. </div>
+              <div className="text">Most recently, I interned at Thermo Fisher as part of the Financial Data Science team. I designed and developed some internal web tools to help analysts predict revenue.</div>
+              <br></br>
+              <div className="text"> At school, I’m involved in ACM, the largest computer science student organization on campus and Daily Bruin, our school newspaper. I do design and web development for projects ranging from interactive learning modules to feature stories. I also work as a Computer Science instructor teaching kids of all ages about programming! In other words, I spend a lot of time on Figma and Github. </div>
               <br></br>
               <div className="text"> In my free time, you can catch me working on a sewing project, reading a book, or hanging out with my little sister! </div>
             </div>

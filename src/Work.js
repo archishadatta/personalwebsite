@@ -53,7 +53,7 @@ const portfolio = [
     tags: ["Web Design", "Web Development", "Learning Lab", "Work in Progress"],
     text: "Color Lab is an interactive color-by-number page that teaches students about how colors are represented with hex codes. For each question they answer, another piece of the picture is colored in!",
     me: "Everything!",
-    link: "https://www.figma.com/proto/RxdhEuoPBrUE3oYCPEwP3M/color-lab?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1&hide-ui=1"
+    link: "https://color-lab-teachla.netlify.app/"
   },
   {
     img: five,
